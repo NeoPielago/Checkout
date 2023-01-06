@@ -1,0 +1,105 @@
+*{
+    /* outline: 1px dashed orange; */
+    margin: 0;
+    padding: 0;
+}
+
+::root{
+    font-family: Poppins, sans-serif;
+    --gold: #D7BE78;
+    --goldDark: #b49f65;
+    --royalBlue: #032356;
+}
+
+    /* main{
+        width: 100%;
+        height: 3000px;
+    } */
+
+    :root{
+    
+        height: 100%;
+    }
+
+    body{
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        
+        width: 100%;
+        height: 40rem;
+        background-color: var(--royalBlue);
+        margin-top: auto;
+        display: flex;
+    }
+
+    
+        section.footer-logo{
+            width: 30%;
+            height: 100%;
+            border-right: 2px solid #253F69;
+           
+        }
+
+        img.footer--logo{
+            margin-left: 6rem ;
+            margin-top:6rem ;
+            width: 180px;
+        }
+
+        img.footer--logo-text{
+            display: block;
+            margin-left: 6rem;
+            margin-top: 6rem ;
+            width: 17rem;
+        }
+
+        footer > section.footer-logo > p{
+        
+            font-weight: 100;
+            color: white;
+            width: 18rem;
+            margin-left: 6rem;
+            font-size: 0.75rem;
+            line-height: 1.8;
+        }
+
+        footer > section > p.footer-description{
+            margin-top: 6rem;
+        }
+
+        footer > section > p.tagline{
+            margin-top: 1rem;
+        }
+
+        section.site-navigation-links{
+            width: 100%;
+            display: flex;
+            height: fit-content;
+        }
+
+        section.site-navigation-links > div.site-nav, section.site-navigation-links > div.categories, section.site-navigation-links > div.my-account{
+            
+            width: 25%;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            /* background-color: gray; */
+        }
+        section.site-navigation-links > div.site-nav > p, section.site-navigation-links > div.categories > p, section.site-navigation-links > div.my-account > p{
+            font-weight: 600;
+            color: var(--gold);
+            margin-bottom: 1rem;
+        }
+
+        section.site-navigation-links > div > a{
+        
+            color: white;
+            font-weight:200;
+            text-decoration: none;
+        }
+
