@@ -1,0 +1,209 @@
+*{
+    /* outline: 1px dashed orange; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: Poppins, sans-serif;
+    --gold: #D7BE78;
+    --goldDark: #b49f65;
+    --royalBlue: #032356;
+    --body-color: #f5f5f5;
+}
+
+body{
+    background-color: var(--body-color);
+}
+
+    section.banner-container{
+        padding: 30px;
+        width: 100%;
+        margin: 0 auto;
+        height: 730px;
+    }
+        h1{
+            margin-bottom: 20px;
+        }
+
+        .text{
+        
+            position: relative;
+            bottom: 520px;
+            left: 100px;
+            color: white;
+            width: fit-content;
+        }
+
+        .banner-video{
+            object-fit:cover;
+            width:100%;
+            border-radius: 20px;
+            height: 650px;
+        }
+
+        .banner-text {
+            font-weight: 700;
+            font-size: 4rem;
+            width: 800px;
+            font-family: Poppins;
+        }
+
+        p.banner-description{
+            font-weight: 200;
+            font-size: 1.5rem;
+            width: 600px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        } 
+
+        a.call-to-action{
+            text-decoration:none ;
+            color: var(--gold);
+            background-color: var(--royalBlue);
+            font-weight: 500;
+            display: inline-block;
+            padding: 20px 30px;
+        }
+
+    h2.brands-header{
+        color: var(--royalBlue);
+        font-weight: 600;
+        font-size: 3rem;
+        margin: 4rem auto;
+    }
+
+        marquee{
+            width: 97%;
+            display: block;
+            margin: 0 auto;
+        }
+
+            marquee > img{
+            margin: 0 50px;
+            }
+
+    main{
+    
+    }
+
+        .categories-title, .featured-products-title, .top-products-title{
+            display: block;
+            margin: 15px auto;
+        }
+
+        section.categories{
+            width: 97%;
+            height: 300px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+        }
+
+        .wrapper{
+            
+            width: 60%;
+            height: fit-content;
+            gap: 30px 20px;
+            display: flex;
+            flex-wrap:wrap;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .categories a.all-products, a.cleansers-toners, a.serums-treatments,a.moisturizers,a.eyes-lips, a.sun-protection, a.best-sellers, a.on-sale{
+            
+            display: inline-block;
+            text-align: center;
+            vertical-align: center;
+            width: 200px;
+            height: 70px;
+            background-color: #D7BE78;
+            text-decoration: none;
+            color: white;
+            border-radius: 10px ;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+      
+        }
+        
+        a.cleansers-toners{
+        
+            background-color: rgba(0, 161, 171,0.9);
+        }
+        
+        a.serums-treatments{
+        
+            background-color: rgba(123, 42, 151, 0.9);
+        }
+        
+        a.moisturizers{
+            background-color: rgba(57, 42, 149, 0.9);
+        }
+
+        a.eyes-lips{
+        
+            background-color: rgba(180, 34, 78, 0.9);
+        }
+
+        a.sun-protection{
+            background-color: rgba(55, 185, 123, 0.9);
+        }
+
+        a.best-sellers{
+            background-color: rgba(226, 135, 67, 0.9);
+        }
+
+        a.on-sale{
+        
+            background-color: rgba(40, 64, 190, 0.9);
+        }
+
+    .featured-products, .top-products{
+    
+        display: flex;
+        height:480px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-bottom:10px ;
+    }
+
+/* Product Card Styling*/
+
+div.card{
+    width: 212px;
+    height: 345px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}  
+.card-img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}  
+.card-p{
+    margin: 0.5rem 0.8rem
+}  
+p.card-price{
+    color: #00368C;
+    font-weight: 700;
+}              
+p.card-product-name{              
+    font-size: 0.78rem;
+    height: 3rem;
+}
+
+.product-container{
+
+    display:flex;
+    gap: 10px;
+    width: fit-content;
+    margin: 0 auto;
+}

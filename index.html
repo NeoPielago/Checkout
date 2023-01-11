@@ -7,14 +7,17 @@
     <link rel="stylesheet" href="normalize.css">
 
     <!--font family-->
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap" rel="stylesheet">
 
     <!--font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!--Style Sheets-->
+    <link rel="stylesheet" href="header-footer_styles.css">
+    <link rel="stylesheet" href="index-styles.css">
 
-    <link rel="stylesheet" href="styles.css">
-    <title>Checkout</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Checkout | Home</title>
    
 </head>
 <body>
@@ -114,14 +117,65 @@
         <div class="pages">
             <a href="index.html" class="home-tab">Home</a>
             <a href="products.html" class="products-tab">Products</a>
-            <a href="categories.html" class="categories-tab">Categories</a>
         </div>
     </nav>
 
+    <section class="banner-container">
+        <video src="assets/checkout banner video.mp4" autoplay loop muted class="banner-video"></video>
 
-    <!-- <main>
-        <h1>Sample Text</h1>
-    </main>  -->
+        <div class="text">
+            <h1 >
+                <pre class="banner-text">Discover the
+World of SkinCare!</pre>
+            </h1>
+            <p class="banner-description">Because Beauty starts with skin. Checkout our products and Glow like never before.</p>
+
+            <a href="products.html" class="call-to-action">Shop Now</a>
+        </div>
+
+    </section>
+
+    <h2 class="brands-header">Our Leading Brands</h2>
+
+    <section class="brands">
+        <marquee scrollamount="20">
+            <img src="assets/300-brand-logos/the-ordinary-logo.png" alt="the ordinary logo">
+            <img src="assets/300-brand-logos/cerave-logo.png" alt="cerave logo">
+            <img src="assets/300-brand-logos/neutrogena-logo.png" alt="neutrogena logo">
+            <img src="assets/300-brand-logos/cosrx-logo.png" alt="cosrx logo">
+            <img src="assets/300-brand-logos/some-by-mi-logo.png" alt="somebymi logo">
+            <img src="assets/300-brand-logos/dear-klairs-logo.png" alt="dear klairs logo">
+            <img src="assets/300-brand-logos/the_inkey_list.png" alt="the inkeylist logo">
+            <img src="assets/300-brand-logos/la-roche-posay.png" alt="la roche-posay logo">
+        </marquee>
+    </section>
+
+    <main>
+        <!-- <p class="categories-header">Categories</p> -->
+        <img  class= "categories-title" src="assets/categories-title.png" alt="categories title">
+
+        <section class="categories">
+            <div class="wrapper">
+
+                <a class="all-products" href="all-products.html">All Products</a>
+                <a class="cleansers-toners" href="cleansers-toners.html">Cleansers & Toners</a>
+                <a class="serums-treatments" href="serums-treatments.html">Serums & Treaments</a>
+                <a class="moisturizers" href="moisturizers.html">Moisturizers</a>
+                <a class="eyes-lips" href="eyes-lips.html">Eyes & Lips</a>
+                <a class="sun-protection" href="sun-protection">Sun Protection</a>
+                <a class="best-sellers" href="best-sellers">Best Sellers</a>
+                <a class="on-sale" href="on-sale">ON SALE</a>
+            </div>
+        </section>
+
+        <img class="featured-products-title" src="assets/featured-products-title.png" alt="featured products title">
+        
+        <section class="featured-products"></section>
+
+        <img class="top-products-title" src="assets/top-products-title.png" alt="top products title">
+
+        <section class="top-products"></section>
+    </main> 
 
 
     <footer>
@@ -145,11 +199,12 @@
                         <a href="contact.html">Contact Us</a>
                     </div>
 
-                    <div class="categories">
-                        <p class="categories-title">Categories</p>
+                    <div class="categories-footer">
+                        <p class="categories-title-footer">Categories</p>
                         <a href="all-products.html">All Products</a>
                         <a href="cleansers-toners.html">Cleansers & Toners</a>
                         <a href="serums-treatments.html">Serums & Treaments</a>
+                        <a href="moisturizers.html">Moisturizers</a>
                         <a href="eyes-lips.html">Eyes & Lips</a>
                         <a href="sun-protection">Sun Protection</a>
                         <a href="best-sellers">Best Sellers</a>
@@ -173,5 +228,6 @@
 
       
     </footer>
+    <script src="index-script.js"></script>
 </body>
 </html>
