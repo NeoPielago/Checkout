@@ -1,12 +1,11 @@
 *{
-    /* outline: 1px dashed orange; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 :root{
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     --gold: #D7BE78;
     --goldDark: #b49f65;
     --royalBlue: #032356;
