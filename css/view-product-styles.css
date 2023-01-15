@@ -1,0 +1,200 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px dashed orange; */
+
+}
+
+.product-view{
+
+    margin: 50px 0;
+
+}
+
+.product-container{
+
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+img.product-img{
+
+   width: 450px; 
+    border-radius: 10px;
+}
+
+.info{
+
+    width: 50%;
+
+}
+
+.brand-name{
+
+    font-weight: 700;
+    color: #032356;
+    font-size: 1.3rem;
+    
+}
+
+.product-name{
+
+    font-weight: 400;
+    font-size: 1.4rem;
+    width: 70%;
+    margin: 30px 0;
+}
+
+.product-price{
+
+    font-weight: 700;
+    color: #032356;
+    font-size: 1.3rem;
+    margin-top: 40px;
+}
+
+
+.quantity-label{
+
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+#number{
+    text-align: center;
+    border-radius: 10px;
+    border: 0.1px solid gray;
+    width: 50px;
+    height: 50px;
+}
+
+.btn-add-to-cart{
+
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin: 0 10px;
+    padding: 0 20px;
+    background-color: #D7BE78;
+    color: white;
+    font-weight: 600;
+}
+
+.btn-add-to-cart:hover{
+
+    background-color: #b49f65;
+    cursor: pointer;
+}
+
+i.fa-truck-fast{
+
+    margin: 30px 0;
+    font-size: 1.5rem;
+    color: #02193d
+}
+
+i.fa-truck-fast > span{
+    font-family: 'Poppins',sans-serif;
+    margin: 0 10px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: black;
+}
+
+.delivery{
+
+    font-style: italic;
+
+}
+
+.payment-options{
+
+    margin: 10px 0;
+    font-weight: 500;
+
+}
+.payment{
+
+    margin: 20px 0;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.option1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+    
+}
+
+.option2{
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+}
+
+.payment > div>  i{
+
+    font-size: 2rem;
+    color: #02193d;
+
+}
+
+.payment > div > i > span{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+
+.description{
+
+    width: 28%;
+    margin-top: 40px;
+    margin-left: 20%;
+    line-height: 2;
+}
+
+.product-description{
+
+    margin-top: 15px;
+}
+.description-label{
+
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+.ingredients{
+    margin-top: 15px;
+}
+
+
+.bnt-back{
+
+    width: fit-content;
+    border: none;
+    height: 40px;
+    margin: 0 10px;
+    padding: 0 20px;
+    color: black;
+    font-weight: 600;
+    background-color: transparent;
+    margin-left: 370px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.bnt-back:hover{
+
+    color: grey;
+}

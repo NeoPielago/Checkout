@@ -8,7 +8,7 @@ productList_sun_protection.forEach((product)=>{
 
     const content = `
 
-        <div class = 'card sun-protection-card'>
+        <div class = 'card sun-protection-card' value =${product.id}>
             <img class='card-img' src=${product.Icon}>
             <strong><p class ='card-brand-name card-p'>${product.Brandname}</p></strong>
             <p class='card-product-name card-p'>${product.Productname}</p>
@@ -22,12 +22,12 @@ productList_sun_protection.forEach((product)=>{
 /* Event Listener*/
 
 
-function ifProductExist(card, productList){
+function queryString(id){
 
-    const clicked = card.childNodes[1].getAttribute('src')
-    const product = productList.filter(obj => Object.values(obj).some(val => val.includes(clicked)))
-    //try index of or use includes directly
-     console.log(clicked)
+    const string = 'id=' + id
+    const url = 'view-product.html?'
+    const searchParams = new URLSearchParams(string)
+    return url + searchParams
 }
 
 
@@ -38,7 +38,9 @@ sun_protection_cards.forEach((card)=>{
 
     card.addEventListener('click',()=>{
     
-        ifProductExist(card, productList_sun_protection)
+        const id = card.getAttribute('value')
+        window.location.href = queryString(id)
+     
     })
 
 })

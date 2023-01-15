@@ -29,7 +29,7 @@ productList_Best_sellers.slice(0,5).forEach((product)=>{
 
     const content = `
 
-        <div class = 'card best-seller-card'>
+        <div class = 'card best-seller-card' value=${product.id}>
             <img class='card-img' src=${product.Icon}>
             <strong><p class ='card-brand-name card-p'>${product.Brandname}</p></strong>
             <p class='card-product-name card-p'>${product.Productname}</p>
@@ -48,7 +48,7 @@ productList_cleansers_toners.slice(4,9).forEach((product)=>{
 
     const content = `
 
-        <div class = 'card cleansers-toners-card'>
+        <div class = 'card cleansers-toners-card' value=${product.id}>
             <img class='card-img' src=${product.Icon}>
             <strong><p class ='card-brand-name card-p'>${product.Brandname}</p></strong>
             <p class='card-product-name card-p'>${product.Productname}</p>
@@ -66,7 +66,7 @@ productList_eyes_lips.slice(0,5).forEach((product)=>{
 
     const content = `
 
-        <div class = 'card eyes-lips-card'>
+        <div class = 'card eyes-lips-card' value=${product.id}>
             <img class='card-img' src=${product.Icon}>
             <strong><p class ='card-brand-name card-p'>${product.Brandname}</p></strong>
             <p class='card-product-name card-p'>${product.Productname}</p>
@@ -78,14 +78,14 @@ productList_eyes_lips.slice(0,5).forEach((product)=>{
 })
 
 
-productList_Moisturizers.slice(5).forEach((product)=>{
+productList_Moisturizers.slice(4).forEach((product)=>{
 
     const card = document.createElement('div')
     card.classList = 'card-body'
 
     const content = `
 
-        <div class = 'card moisturizers-card'>
+        <div class = 'card moisturizers-card' value=${product.id}>
             <img class='card-img' src=${product.Icon}>
             <strong><p class ='card-brand-name card-p'>${product.Brandname}</p></strong>
             <p class='card-product-name card-p'>${product.Productname}</p>
@@ -102,7 +102,7 @@ productList_serums_treatments.slice(0,5).forEach((product)=>{
 
     const content = `
 
-        <div class = 'card serums-treatments-card'>
+        <div class = 'card serums-treatments-card' value=${product.id}>
             <img class='card-img' src=${product.Icon}>
             <strong><p class ='card-brand-name card-p'>${product.Brandname}</p></strong>
             <p class='card-product-name card-p'>${product.Productname}</p>
@@ -121,7 +121,7 @@ productList_sun_protection.slice(0,5).forEach((product)=>{
 
     const content = `
 
-        <div class = 'card sun-protection-card'>
+        <div class = 'card sun-protection-card' value=${product.id}>
             <img class='card-img' src=${product.Icon}>
             <strong><p class ='card-brand-name card-p'>${product.Brandname}</p></strong>
             <p class='card-product-name card-p'>${product.Productname}</p>
@@ -144,19 +144,20 @@ const sun_protection_cards = document.querySelectorAll('.sun-protection-card')
 
 
 
-function isProductExist(card, productList){
+function queryString(id){
 
-    const clicked = card.childNodes[1].getAttribute('src')
-    const product = productList.filter(obj => Object.values(obj).some(val => val.includes(clicked)))
-    //try index of or use includes directly
-     console.log(product)
+    const string = 'id=' + id
+    const url = 'view-product.html?'
+    const searchParams = new URLSearchParams(string)
+    return url + searchParams
 }
 
 
 best_seller_cards.forEach((card)=>{
 
     card.addEventListener('click', ()=>{
-        isProductExist(card, productList_Best_sellers)
+        const id = card.getAttribute('value')
+        window.location.href = queryString(id)
     })
 
 })
@@ -165,7 +166,8 @@ best_seller_cards.forEach((card)=>{
 cleansers_toners_cards.forEach((card)=>{
 
     card.addEventListener('click', ()=>{
-        isProductExist(card, productList_cleansers_toners)
+        const id = card.getAttribute('value')
+        window.location.href = queryString(id)
     })
 
 })
@@ -173,7 +175,8 @@ cleansers_toners_cards.forEach((card)=>{
 serums_treatments_cards.forEach((card)=>{
 
     card.addEventListener('click', ()=>{
-        isProductExist(card, productList_serums_treatments)
+        const id = card.getAttribute('value')
+        window.location.href = queryString(id)
     })
 
 })
@@ -182,7 +185,8 @@ serums_treatments_cards.forEach((card)=>{
 moisturizers_cards.forEach((card)=>{
 
     card.addEventListener('click', ()=>{
-        isProductExist(card, productList_Moisturizers)
+        const id = card.getAttribute('value')
+        window.location.href = queryString(id)
     })
 
 })
@@ -190,7 +194,8 @@ moisturizers_cards.forEach((card)=>{
 eyes_lips_cards.forEach((card)=>{
 
     card.addEventListener('click', ()=>{
-        isProductExist(card, productList_eyes_lips)
+        const id = card.getAttribute('value')
+        window.location.href = queryString(id)
     })
 
 })
@@ -198,7 +203,19 @@ eyes_lips_cards.forEach((card)=>{
 sun_protection_cards.forEach((card)=>{
 
     card.addEventListener('click', ()=>{
-        isProductExist(card, productList_sun_protection)
+        const id = card.getAttribute('value')
+        window.location.href = queryString(id)
     })
 
 })
+
+
+const title = document.querySelector('title')
+const tab = document.querySelector('.products-tab')
+
+if(title.textContent === 'Checkout | Products'){
+
+    tab.style.color = '#D7BE78'
+    tab.style.fontWeight = '600'
+
+}

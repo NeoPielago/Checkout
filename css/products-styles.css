@@ -14,7 +14,9 @@ body{
 
 h1{
     color: var(--royalBlue);
-    margin: 70px auto;
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 3rem;
 }
 

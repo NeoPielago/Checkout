@@ -1,10 +1,10 @@
-export const productList_cleansers_toners = [
+export const productList = [
         {
             id: 1 ,   
             Brandname: 'COSRX',
             Productname: 'COSRX Low pH Good Morning Gel Cleanser (150ml)',
             Price: 'P395.00',
-            Img:'assets/Products/cleansers&toners/IMG_Cosrx_Low_Ph_Goodmorning_Gel_Cleanser_1.webp',
+            Img:'assets/Products/cleansers&toners/IMG_Corsrx_Low_Ph_Goodmorning_Gel_Cleanser_1.webp',
             Icon :'assets/Products/cleansers&toners/ICON_Corsrx_Low_Ph_Goodmorning_Gel_Cleanser.webp',
             Description: 'This do-it-all gel cleanser is the gold standard for multitasking cleansers. Mild on the skin yet tough on impurities, it clears stubborn bacteria with just the right concentration of tea tree oil and 0.9% salicylic acid. At the same time, its low pH formula leaves the moisture barrier undisturbed. This is a balancing act not many formulas do well. It helps maintain a healthy moisture balance, which allows your skin to recover faster and stronger.',
             Ingredients: 'INGREDIENTS: Water, Cocamidopropyl Betaine, Sodium Lauroyl Methyl Isethionate, Polysorbate 20, Styrax Japonicus Branch/Fruit/Leaf Extract, Butylene Glycol, Saccharomyces Ferment, Cryptomeria Japonica Leaf Extract, Nelumbo Nucifera Leaf Extract, Pinus Palustris Leaf Extract, Ulmus Davidiana Root Extract, Oenothera Biennis (Evening Primrose) Flower Extract, Pueraria Lobata Root Extract, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Allantoin, Caprylyl Glycol, Ethylhexylglycerin, Betaine Salicylate, Citric Acid, Ethyl Hexanediol, 1,2-Hexanediol, Trisodium Ethylenediamine Disuccinate, Sodium Benzoate, Disodium EDTA'
@@ -27,7 +27,7 @@ export const productList_cleansers_toners = [
             id: 3 ,   
             Brandname: 'CERAVE',
             Productname: 'CERAVE Acne Control Cleanser(237ml)',
-            Price: 'P1500.00',
+            Price: 'P1,500.00',
             Img:'assets/Products/cleansers&toners/IMG_Cerave_Acne_Control_Cleanser_1.webp',
             Icon :'assets/Products/cleansers&toners/ICON_Cerave_Acne_Control_Cleanser.webp',
             Description: 'A refreshing, gel-to-foam salicylic acid cleanser with Oil-Absorbing Technology to reduce blackheads and help prevent new breakouts',
@@ -39,7 +39,7 @@ export const productList_cleansers_toners = [
             id: 4 ,   
             Brandname: 'CERAVE',
             Productname: 'CERAVE Renewing SA Face Cleanser (237ml)',
-            Price: 'P1500.00',
+            Price: 'P1,500.00',
             Img:'assets/Products/cleansers&toners/IMG_Cerave_Renewing_SA_Face_Cleanser_1.webp',
             Icon :'assets/Products/cleansers&toners/ICON_Cerave_Renewing_SA_Face_Cleanser.webp',
             Description: 'A foaming gel cleanser with salicylic acid for rough and bumpy skin',
@@ -47,16 +47,16 @@ export const productList_cleansers_toners = [
         },
 
 
-        // {
-        //     id: 5 ,   
-        //     Brandname: 'CERAVE',
-        //     Productname: 'CERAVE Foaming Cleanser (237ml)',
-        //     Price: 'P1090.00',
-        //     Img:'assets/Products/cleansers&toners/IMG_Cerave_Foaming_Cleanser_1.webp',
-        //     Icon :'assets/Products/cleansers&toners/ICON_Cerave_Foaming_Cleanser.webp',
-        //     Description: 'A refreshing gel-based foam wash that effectively cleanses without over-stripping your skin',
-        //     Ingredients: 'INGREDIENTS: Aqua/Water/Eau, Cocamidopropyl Hydroxysultaine, Glycerin, Sodium Lauroyl Sarcosinate, Peg-150 Pentaerythrityl Tetrastearate, Niacinamide, Peg-6 Caprylic/Capric Glycerides, Sodium Methyl Cocoyl, Taurate, Propylene Glycol, Ceramide Np, Ceramide Ap, Ceramide Eop, Carbomer, Methylparaben, Sodium Chloride, Sodium Lauroyl Lactylate, Cholesterol, Disodium Edta, Propylparaben, Citric Acid, Tetrasodium Edta, Hydrolyzed Hyaluronic Acid, Phytosphingosine, Xanthan Gum'
-        // },
+        {
+            id: 5 ,   
+            Brandname: 'CERAVE',
+            Productname: 'CERAVE Foaming Cleanser (237ml)',
+            Price: 'P1,090.00',
+            Img:'assets/Products/cleansers&toners/',
+            Icon :'assets/Products/cleansers&toners/ICON_Cerave_Foaming_Cleanser.webp',
+            Description: 'A refreshing gel-based foam wash that effectively cleanses without over-stripping your skin',
+            Ingredients: 'INGREDIENTS: Aqua/Water/Eau, Cocamidopropyl Hydroxysultaine, Glycerin, Sodium Lauroyl Sarcosinate, Peg-150 Pentaerythrityl Tetrastearate, Niacinamide, Peg-6 Caprylic/Capric Glycerides, Sodium Methyl Cocoyl, Taurate, Propylene Glycol, Ceramide Np, Ceramide Ap, Ceramide Eop, Carbomer, Methylparaben, Sodium Chloride, Sodium Lauroyl Lactylate, Cholesterol, Disodium Edta, Propylparaben, Citric Acid, Tetrasodium Edta, Hydrolyzed Hyaluronic Acid, Phytosphingosine, Xanthan Gum'
+        },
 
 
         {
@@ -118,13 +118,6 @@ export const productList_cleansers_toners = [
             Ingredients: 'INGREDIENTS: Water, Butylene Glycol, Dipropylene Glycol, Glycerin, Niacinamide, Melaleuca Alternifolie (Tea Tree) Leaf Extract, Polyglyceryl-3 Caprate, Carica Papaya (Papaya) Fruit Extract, Lens Esculenta (Lentil) Seed Extract, Hamamelis Virginiana (Witcn Hazel) Extract, Nelumbo Nucifera Flower Extract, Swiftlet Nest Extract, Sodium Hyaluronate, Fructan, Allantoin, Adenosine, Hydroxyethyl Urea, Xylitol, Salicylic Acid, Lactobionic Acid, Citric Acid, Sodium Citrate, 1,2-Hexanediol, Benzyl Glycol, Ethylhexylglycerin, Raspberry Ketone, Mentha Piperita (Peppermin) Oil'
         },
         
-
-]
-
-
-
-export const productList_serums_treatments = [
-    
         {
             id: 11 ,   
             Brandname: 'THE ORDINARY',
@@ -153,7 +146,7 @@ export const productList_serums_treatments = [
             id: 13 ,   
             Brandname: 'DEAR KLAIRS',
             Productname: 'DEAR KLAIRS Rich Moist Soothing Serum(80ml)',
-            Price: 'P1280.00',
+            Price: 'P1,280.00',
             Img:'assets/Products/serums&treatments/IMG_Dear_Klairs_Rich_Moist_Smoothing_Serum_1.webp',
             Icon :'assets/Products/serums&treatments/ICON_Dear_Klairs_Rich_Moist_Smoothing_Serum.webp',
             Description: 'This gentle hydrating serum boosts moisture and keeps your skin barrier healthy. Made with the patented Phyto-Oligo ingredient, a blend of organic complexes like amino acids and enzymes to restore youthful bounciness to your complexion.',
@@ -233,23 +226,18 @@ export const productList_serums_treatments = [
         },
 
 
-        // {
-        //     id: 20 ,   
-        //     Brandname: 'CELETEQUE DERMOSCIENCE',
-        //     Productname: 'CELETEQUE DERMOSCIENCE Advanced Anti-aging Age Spot Erasing Serum',
-        //     Price: 'P899.00',
-        //     Img:'assets/Products/serums&treatments/IMG_Celeteque_Dermoscience_Advanced_Anti-aging_Spot Erasing_Serum_1.webp',
-        //     Icon :'assets/Products/serums&treatments/IMG_Celeteque_Dermoscience_Advanced_Anti-aging_Spot Erasing_Serum_1.webp',
-        //     Description: 'A retinol-based spot treatment to swiftly lighten dark spots and hyperpigmentation',
-        //     Ingredients: 'INGREDIENTS: Purified Water, Butylene Glycol, C12-15 Alkyl Benzoate, Glycerin, Ppg24-Glycereth-24, Phenoxyethanol, Cetyl Alcohol, Carbomer, Isostearyl Isostearate, Potassium Cetyl Phosphate, Stearic Acid, Tocopheryl Acetate, Chlorphenesin, Rosa Moschata (Rosa Hip) Oil, Vitis Vinifera (Grape) Fruit Extract, Cetyl Stearate, Copernicia Cerifera Cera (Carnauba Wax), Retinol, Propanediol, Disodium Edta, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Fragrance, Squalene, Sodium Cocoamphoacetate, Sodium Hydroxide, Polysorbate 60, Artemisia Capillaris Flower Extract, Bht, Bha, Xanthan Gum, Ethylhexylglycerin'
-        // },
+        {
+            id: 20 ,   
+            Brandname: 'CELETEQUE DERMOSCIENCE',
+            Productname: 'CELETEQUE DERMOSCIENCE Advanced Anti-aging Age Spot Erasing Serum',
+            Price: 'P899.00',
+            Img:'assets/Products/serums&treatments/IMG_Celeteque_Dermoscience_Advanced_Anti-aging_Spot Erasing_Serum_1.webp',
+            Icon :'assets/Products/serums&treatments/ICON_Celeteque_Dermoscience_Advanced_Anti-aging_Spot Erasing_Serum.webp',
+            Description: 'A retinol-based spot treatment to swiftly lighten dark spots and hyperpigmentation',
+            Ingredients: 'INGREDIENTS: Purified Water, Butylene Glycol, C12-15 Alkyl Benzoate, Glycerin, Ppg24-Glycereth-24, Phenoxyethanol, Cetyl Alcohol, Carbomer, Isostearyl Isostearate, Potassium Cetyl Phosphate, Stearic Acid, Tocopheryl Acetate, Chlorphenesin, Rosa Moschata (Rosa Hip) Oil, Vitis Vinifera (Grape) Fruit Extract, Cetyl Stearate, Copernicia Cerifera Cera (Carnauba Wax), Retinol, Propanediol, Disodium Edta, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Fragrance, Squalene, Sodium Cocoamphoacetate, Sodium Hydroxide, Polysorbate 60, Artemisia Capillaris Flower Extract, Bht, Bha, Xanthan Gum, Ethylhexylglycerin'
+        },
 
-
-]
-
-export const productList_Moisturizers = [
-
-         {
+        {
             id: 21 ,
             Brandname: 'CERAVE',
             Productname: 'CERAVE Moisturizing Cream (56ml)',
@@ -273,16 +261,16 @@ export const productList_Moisturizers = [
         },
 
 
-        // {
-        //     id: 23 ,
-        //     Brandname: 'DEAR KLAIRS',
-        //     Productname: 'DEAR KLAIRS Rich Moist Soothing Cream Mini(20ml)',
-        //     Price: 'P570.00',
-        //     Img:'assets/Products/Moisturizers/IMG_ Dear_Klairs_Rich_Moist_Smoothing_Cream_Mini_1.webp',
-        //     Icon :'assets/Products/Moisturizers/ICON_ Dear_Klairs_Rich_Moist_Smoothing_Cream_Mini.webp',
-        //     Description: 'An all-around moisturizer made for battling sensitive skin through all seasons',
-        //     Ingredients: 'INGREDIENTS: Water, Glycerin, Caprylic/Capric Triglyceride, Cyclopentasiloxane, Cetyl Alcohol, Glyceryl Stearate, Cetyl Ethylhexanoate, Butyrospermum Parkii (Shea) Butter, Simmondsia Chinensis (Jojoba) Seed Oil, Stearic Acid, Butylene Glycol, Sorbitan Sesquioleate, Microcrystalline Wax, Betaine, Sorbitan Stearate, PEG-100 Stearate, Dimethicone, Arginine, Carbomer, Chlorphenesin, Tocopheryl Acetate, Paeonia Suffruticosa Root Extract, Illicium Verum (Anise) Fruit Extract, Nelumbium Speciosum Flower Extract, Citrus Paradisi (Grapefruit) Fruit Extract, Scutellaria Baicalensis Root Extract, Citric Acid, Beta-Glucan, Hydrogenated Lecithin, Portulaca Oleracea Extract, 1,2-Hexanediol, Centella Asiatica Extract, Aloe Barbadensis Leaf Extract, Althaea Rosea Flower Extract, Sodium Hyaluronate, Ceramide NP, Disodium EDTA, Polyquaternium-51, Apium Graveolens (Celery) Extract, Brassica Rapa (Turnip) Leaf Extract, Oryza Sativa (Rice) Bran Extract, Brassica Oleracea Capitata (Cabbage) Leaf Extract, Disodium Adenosine Triphosphate, Daucus Carota Sativa (Carrot) Root Extract, Brassica Oleracea Italica (Broccoli) Extract, Solanum Lycopersicum (Tomato) Fruit/Leaf/Stem Extract, Lysine HCl, Sodium Ascorbyl Phosphate, Acetyl Methionine, Theanine, Proline, Palmitic Acid, Arachidic Acid, Oleic Acid, Sodium Hydroxide, Algin, Carica Papaya (Papaya) Fruit Extract, Natto Gum, Citrus Limon (Lemon) Peel Oil, Lavandula Angustifolia (Lavender) Oil, Citrus Aurantium Dulcis (Orange) Peel Oil, Pelargonium Graveolens Flower Oil, Cananga Odorata Flower Oil, Eucalyptus Globulus Leaf Oil'
-        // },
+        {
+            id: 23 ,
+            Brandname: 'DEAR KLAIRS',
+            Productname: 'DEAR KLAIRS Rich Moist Soothing Cream Mini(20ml)',
+            Price: 'P570.00',
+            Img:'assets/Products/Moisturizers/IMG_ Dear_Klairs_Rich_Moist_Smoothing_Cream_Mini_1.webp',
+            Icon :'assets/Products/Moisturizers/ICON_ Dear_Klairs_Rich_Moist_Smoothing_Cream_Mini.webp',
+            Description: 'An all-around moisturizer made for battling sensitive skin through all seasons',
+            Ingredients: 'INGREDIENTS: Water, Glycerin, Caprylic/Capric Triglyceride, Cyclopentasiloxane, Cetyl Alcohol, Glyceryl Stearate, Cetyl Ethylhexanoate, Butyrospermum Parkii (Shea) Butter, Simmondsia Chinensis (Jojoba) Seed Oil, Stearic Acid, Butylene Glycol, Sorbitan Sesquioleate, Microcrystalline Wax, Betaine, Sorbitan Stearate, PEG-100 Stearate, Dimethicone, Arginine, Carbomer, Chlorphenesin, Tocopheryl Acetate, Paeonia Suffruticosa Root Extract, Illicium Verum (Anise) Fruit Extract, Nelumbium Speciosum Flower Extract, Citrus Paradisi (Grapefruit) Fruit Extract, Scutellaria Baicalensis Root Extract, Citric Acid, Beta-Glucan, Hydrogenated Lecithin, Portulaca Oleracea Extract, 1,2-Hexanediol, Centella Asiatica Extract, Aloe Barbadensis Leaf Extract, Althaea Rosea Flower Extract, Sodium Hyaluronate, Ceramide NP, Disodium EDTA, Polyquaternium-51, Apium Graveolens (Celery) Extract, Brassica Rapa (Turnip) Leaf Extract, Oryza Sativa (Rice) Bran Extract, Brassica Oleracea Capitata (Cabbage) Leaf Extract, Disodium Adenosine Triphosphate, Daucus Carota Sativa (Carrot) Root Extract, Brassica Oleracea Italica (Broccoli) Extract, Solanum Lycopersicum (Tomato) Fruit/Leaf/Stem Extract, Lysine HCl, Sodium Ascorbyl Phosphate, Acetyl Methionine, Theanine, Proline, Palmitic Acid, Arachidic Acid, Oleic Acid, Sodium Hydroxide, Algin, Carica Papaya (Papaya) Fruit Extract, Natto Gum, Citrus Limon (Lemon) Peel Oil, Lavandula Angustifolia (Lavender) Oil, Citrus Aurantium Dulcis (Orange) Peel Oil, Pelargonium Graveolens Flower Oil, Cananga Odorata Flower Oil, Eucalyptus Globulus Leaf Oil'
+        },
 
 
         {
@@ -366,11 +354,6 @@ export const productList_Moisturizers = [
             Ingredients: 'INGREDIENTS: Aqua/Water, Gold Foil, Ethylhexyl Palmitate, Cyclopentasiloxane, Cyclohexasiloxane, Cetearyl Alcohol, Cetearyl Glucoside, Glyceryl Stearate, Peg-100 Stearate, Acetyl Hexapeptide-8, Polyacrylamide, C13-14 Isoparaffin, Laureth-7, Triethanolamine, Phenoxyethanol, Chlorphenesin, 1,2-hexanediol, Sophora Angustifolia Root Extract, Glycyrrhiza Inflata Root Extract, Panthenol, Carbomer, Allantoin, Sodium Hyaluronate, Parfum, Ci 19140'
         },
         
-
-]
-
-
-export const productList_eyes_lips = [
         
         {
             id: 31 ,
@@ -460,7 +443,7 @@ export const productList_eyes_lips = [
             id: 38 ,
             Brandname: 'PYUNKANG YUL',
             Productname: 'PYUNKANG YUL Black Tea Time Reverse Eye Cream (25ml)',
-            Price: 'P1430.00',
+            Price: 'P1,430.00',
             Img:'assets/Products/eyes&lips/IMG_Pyungkang_Yul_Black_Tea_Time_Reverse_Eye_Cream_1.webp',
             Icon :'assets/Products/eyes&lips/ICON_Pyungkang_Yul_Black_Tea_Time_Reverse_Eye_Cream.webp',
             Description: 'A nutrient-rich eye cream that slows down and reverses signs of aging in the delicate eye area.',
@@ -515,10 +498,6 @@ export const productList_eyes_lips = [
             Ingredients: 'INGREDIENTS: Petrolatum, Hydrogenated Polyisobutene, Diisostearylalate, Polyisobutene, Phytosteryl/Isostearyl/Cetyl/Stearyl/Behenyl Dimer Dilinoleate, Butyrospermum Parkii (Shea) Butter, Microcrystalline Wax, Sorbitan Sesquioleate, Ethylene/Propylene/Styrene Copolymer, Euphorbia Cerifera (Candelilla) Wax, Helianthus Annuus (Sunflower) Seed Oil, Butylene/Ethylene/Styrene Copolymer, Ethylhexylglycerin,Glycine Soja (Soybean) Oil,Eclipta Prostrata Extract, Beeswax, Water, Butylene Glycol, Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate, Honey Extract, Melia Azadirachta Leaf Extract, Bixa Orellana Seed Oil, Royal Jelly Extract, Glycerin, Moringa Oleifera Seed Oil, Propolis Extract, 1,2-Hexanediol, Tocopherol, Saccharomyces Ferment, Honey'
         },
 
-        
-]
-
-export const productList_sun_protection = [
 
         {
             id: 43 ,
@@ -536,7 +515,7 @@ export const productList_sun_protection = [
             id: 44 ,
             Brandname: 'CERAVE',
             Productname: 'CERAVE AM Facial Moisturizing Lotion with Sunscreen (89ml)',
-            Price: 'P1250.00',
+            Price: 'P1,250.00',
             Img:'assets/Products/sun_protection/IMG_Cerave_AM_Facial_Mositurizing_Lotion_with_Sunscreen_1.webp',
             Icon :'assets/Products/sun_protection/ICON_Cerave_AM_Facial_Mositurizing_Lotion_with_Sunscreen.webp',
             Description: 'A hydrating lotion with SPF to protect the skin from damaging UV rays',
@@ -548,7 +527,7 @@ export const productList_sun_protection = [
             id: 45 ,
             Brandname: 'LA ROCHE-POSAY',
             Productname: 'LA ROCHE-POSAY Anthelios Dry Touch Gel Cream SPF50+(50ml)',
-            Price: 'P1450.00',
+            Price: 'P1,450.00',
             Img:'assets/Products/sun_protection/IMG_LA_Roche_Posay_Anthelios_Dry_Touch_Gel_Cream_SPF50_1.webp',
             Icon :'assets/Products/sun_protection/ICON_LA_Roche_Posay_Anthelios_Dry_Touch_Gel_Cream_SPF50.webp',
             Description: 'A gel-cream textured sunscreen for oily-combination and sensitive skin',
@@ -608,7 +587,7 @@ export const productList_sun_protection = [
             id: 50 ,
             Brandname: 'FREZYDERM',
             Productname: 'FREZYDERM Sun Screen Color Velvet Technology SPF 50+(50ml)',
-            Price: 'P2150.00',
+            Price: 'P2,150.00',
             Img:'assets/Products/sun_protection/IMG_Frezyderm_Sunscreen_Color_Velvet_Technology_SPF50_1.webp',
             Icon :'assets/Products/sun_protection/ICON_Frezyderm_Sunscreen_Color_Velvet_Technology_SPF50.webp',
             Description: 'A velvety tinted facial sunscreen that melts into the skin and provides sun protection while evening out your skin tone',
@@ -637,14 +616,7 @@ export const productList_sun_protection = [
             Icon :'assets/Products/sun_protection/ICON_Innisfree_Tone_Up_No_Sebum_Sunscreen_SPF50_PA.webp',
             Description: 'A lightweight mattifying sunscreen formulated with sunflower seed oil, which nourishes and hydrates the skin; ideal for normal to oily skin.',
             Ingredients: 'INGREDIENTS: Cyclopentasiloxane, Water, Zinc Oxide (Nano), Titanium Dioxide (Nano), Methyl Methacrylate Crosspolymer, Peg-10 Dimethicone, Isodecyl Neopentanoate, Silica, Mica, Glycerin, Disteardimonium Hectorite, Dipropylene Glycol, Cyclomethicone, Magnesium Sulfate, Aluminum Hydroxide, Aluminum Stearate, Polymethyl Methacrylate, Vinyl Dimethicone/Methicone Silsesquioxane Crosspolymer, Methicone, Stearoyl Inulin, Phenoxyethanol, Sorbitan Sesquioleate, Propanediol, Caprylyl Glycol, Fragrance, Microcrystalline Cellulose, Dimethicone/Vinyl Dimethicone Crosspolymer, Glyceryl Caprylate, Polyglyceryl-6 Polyricinoleate, Ethylhexylglycerin, Dimethicone, Iron Oxides (Ci 77492), Triethoxycaprylylsilane, Centella Asiatica Extract, Portulaca Oleracea Extract, Cellulose Gum, Iron Oxides (Ci 77491), Butylene Glycol, Iron Oxides (Ci 77499), Camellia Sinensis Leaf Extract, Helianthus Annuus (Sunflower) Seed Oil, Hamamelis Virginiana (Witch Hazel) Leaf Extract, Citrus Unshiu Peel Extract, Camellia Japonica Leaf Extract, Opuntia Coccinellifera Fruit Extract, Orchid Extract, Citric Acid, Sodium Benzoate, Potassium Sorbate'
-        },
-
-
-
-]
-
-
-export const productList_Best_sellers = [        
+        },       
 
          {
             id: 1 ,   
@@ -729,16 +701,16 @@ export const productList_Best_sellers = [
         },
 
 
-        // {
-        //     id: 5,   
-        //     Brandname: 'CERAVE',
-        //     Productname: 'CERAVE Foaming Cleanser (237ml)',
-        //     Price: 'P1090.00',
-        //     Img:'assets/Products/cleansers&toners/',
-        //     Icon :'assets/Products/cleansers&toners/ICON_Cerave_Foaming_Cleanser.webp',
-        //     Description: 'A refreshing gel-based foam wash that effectively cleanses without over-stripping your skin',
-        //     Ingredients: 'INGREDIENTS: Aqua/Water/Eau, Cocamidopropyl Hydroxysultaine, Glycerin, Sodium Lauroyl Sarcosinate, Peg-150 Pentaerythrityl Tetrastearate, Niacinamide, Peg-6 Caprylic/Capric Glycerides, Sodium Methyl Cocoyl, Taurate, Propylene Glycol, Ceramide Np, Ceramide Ap, Ceramide Eop, Carbomer, Methylparaben, Sodium Chloride, Sodium Lauroyl Lactylate, Cholesterol, Disodium Edta, Propylparaben, Citric Acid, Tetrasodium Edta, Hydrolyzed Hyaluronic Acid, Phytosphingosine, Xanthan Gum'
-        // },
+        {
+            id: 5,   
+            Brandname: 'CERAVE',
+            Productname: 'CERAVE Foaming Cleanser (237ml)',
+            Price: 'P1,090.00',
+            Img:'assets/Products/cleansers&toners/',
+            Icon :'assets/Products/cleansers&toners/ICON_Cerave_Foaming_Cleanser.webp',
+            Description: 'A refreshing gel-based foam wash that effectively cleanses without over-stripping your skin',
+            Ingredients: 'INGREDIENTS: Aqua/Water/Eau, Cocamidopropyl Hydroxysultaine, Glycerin, Sodium Lauroyl Sarcosinate, Peg-150 Pentaerythrityl Tetrastearate, Niacinamide, Peg-6 Caprylic/Capric Glycerides, Sodium Methyl Cocoyl, Taurate, Propylene Glycol, Ceramide Np, Ceramide Ap, Ceramide Eop, Carbomer, Methylparaben, Sodium Chloride, Sodium Lauroyl Lactylate, Cholesterol, Disodium Edta, Propylparaben, Citric Acid, Tetrasodium Edta, Hydrolyzed Hyaluronic Acid, Phytosphingosine, Xanthan Gum'
+        },
 
 
         {

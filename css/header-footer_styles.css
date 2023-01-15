@@ -284,16 +284,16 @@
             justify-content: center;
             align-items:center;
             gap: 2rem;
-            margin-top: 6rem;
+            margin-top: 6.5rem;
             
         }
 
-        i.fa-brands{
+        .footer-brands{
             color: #918E9B;
             font-size: 2rem;
         }
 
-        i.fa-brands:hover{
+        .footer-brands:hover{
             color: var(--gold);
         }
 

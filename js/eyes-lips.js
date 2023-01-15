@@ -9,7 +9,7 @@ productList_eyes_lips.forEach((product)=>{
 
     const content = `
 
-        <div class = 'card eyes-lips-card'>
+        <div class = 'card eyes-lips-card' value =${product.id}>
             <img class='card-img' src=${product.Icon}>
             <strong><p class ='card-brand-name card-p'>${product.Brandname}</p></strong>
             <p class='card-product-name card-p'>${product.Productname}</p>
@@ -22,15 +22,13 @@ productList_eyes_lips.forEach((product)=>{
 
 /* Event Listener*/
 
+function queryString(id){
 
-function ifProductExist(card, productList){
-
-    const clicked = card.childNodes[1].getAttribute('src')
-    const product = productList.filter(obj => Object.values(obj).some(val => val.includes(clicked)))
-    //try index of or use includes directly
-     console.log(clicked)
+    const string = 'id=' + id
+    const url = 'view-product.html?'
+    const searchParams = new URLSearchParams(string)
+    return url + searchParams
 }
-
 
 
 const eyes_lips_cards = document.querySelectorAll('.eyes-lips-card')
@@ -39,7 +37,9 @@ eyes_lips_cards.forEach((card)=>{
 
     card.addEventListener('click',()=>{
     
-        ifProductExist(card, productList_eyes_lips)
+        const id = card.getAttribute('value')
+        window.location.href = queryString(id)
+     
     })
 
 })

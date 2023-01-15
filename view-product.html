@@ -17,6 +17,7 @@
     <!-- Style sheets -->
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/header-footer_styles.css">
+    <link rel="stylesheet" href="/css/view-product-styles.css">
 
     <title>Checkout</title>
 </head>
@@ -120,7 +121,9 @@
         </div>
     </nav>
 
-    <main class="product-view"></main>
+    <button onclick="history.back()" class="bnt-back"><i class="fa-solid fa-arrow-left"></i> back</button>
+
+    <main class="product-view"></main> 
 
     <footer>        
         <div class="footer-wrapper">
@@ -160,13 +163,15 @@
                     </div>
                 </div>
                 <div class="socials">
-                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook footer-brands"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter footer-brands"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram footer-brands"></i></a>
                 </div>
                 <p class="copyright">© 2023 CHECKOUT</p>
             </section>
         </div>
     </footer>
+
+    <script src="/js/view-product.js" type="module"></script>
 </body>
 </html>
