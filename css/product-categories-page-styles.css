@@ -26,9 +26,8 @@ h1{
 
 main{
 
-width: fit-content;
-margin: 0 auto;
-
+    width: fit-content;
+    margin: 0 auto;
 }
 
 
@@ -73,9 +72,22 @@ p.card-product-name{
 }
 
 
-
 .end{
 
     margin-bottom: 100px;
 
+}
+
+a.back{
+    display: block;
+    color: var(--royalBlue);
+    text-decoration:none ;
+    margin-left: auto;
+    margin-right: 490px;
+    margin-bottom: 70px;
+    font-weight: 600;
+}
+
+a.back:hover{
+    color: var(--gold);
 }
