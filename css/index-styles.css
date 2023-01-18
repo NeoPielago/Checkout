@@ -119,7 +119,7 @@ body{
             vertical-align: center;
             width: 200px;
             height: 70px;
-            background-color: #D7BE78;
+            
             text-decoration: none;
             color: white;
             border-radius: 10px ;
@@ -128,38 +128,66 @@ body{
             justify-content: center;
             font-weight: 400;
         }
+
+        a.all-products{
+            background-color: #D7BE78;
+        }
         
+        a.all-products:hover{
+            background-color: #af9a61;
+        }
+
+
         a.cleansers-toners{
         
             background-color: rgba(0, 161, 171,0.9);
         }
         
+        a.cleansers-toners:hover{
+            background-color: rgba(2, 130, 139, 0.9);
+        }
+
         a.serums-treatments{
         
             background-color: rgba(123, 42, 151, 0.9);
+        }
+
+        a.serums-treatments:hover{
+            background-color: rgba(99, 33, 121, 0.9);
         }
         
         a.moisturizers{
             background-color: rgba(57, 42, 149, 0.9);
         }
 
+        a.moisturizers:hover{
+            background-color: rgba(41, 30, 107, 0.9);
+        }
+
         a.eyes-lips{
-        
             background-color: rgba(180, 34, 78, 0.9);
+        }
+
+        a.eyes-lips:hover{
+            background-color: rgba(136, 27, 60, 0.9);
         }
 
         a.sun-protection{
             background-color: rgba(55, 185, 123, 0.9);
         }
 
+        a.sun-protection:hover{
+            background-color: rgba(42, 138, 91, 0.9);
+        }
+
         a.best-sellers{
             background-color: rgba(226, 135, 67, 0.9);
         }
 
-        a.on-sale{
-        
-            background-color: rgba(40, 64, 190, 0.9);
+        a.best-sellers:hover{
+            background-color: rgba(150, 90, 44, 0.9);
         }
+
 
     .featured-products, .top-products{
     
@@ -180,6 +208,10 @@ div.card{
     border-radius: 10px;
     cursor: pointer;
 }  
+
+div.card:hover{
+    outline: 2px solid var(--gold)
+} 
 .card-img{
     display: block;
     width: 100%;

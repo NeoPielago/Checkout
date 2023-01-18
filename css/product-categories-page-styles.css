@@ -1,8 +1,3 @@
-*{
-
-    /* outline: 1px dashed orange; */
-
-}
 
 :root{
     font-family: 'Poppins', sans-serif;
@@ -52,6 +47,10 @@ div.card{
     border-radius: 10px;
     cursor: pointer;
 }  
+
+div.card:hover{
+    outline: 2px solid var(--gold)
+} 
 .card-img{
     display: block;
     width: 100%;
